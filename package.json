@@ -1,0 +1,22 @@
+{
+  "name": "com.github.vendigo",
+  "version": "1.0.0",
+  "description": "Try to use Phaser together with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "concurrently \"webpack --watch\" \"live-server --port=8085\""
+  },
+  "author": "Vendigo",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "phaser": "^3.20.1",
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2",
+    "concurrently": "^5.0.0"
+  }
+}
